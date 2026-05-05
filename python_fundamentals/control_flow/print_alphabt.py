@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
+result = ""
 for i in range(97, 123):
     if chr(i) != 'e' and chr(i) != 'q':
-        print(chr(i), end="")
-print()
+        result = result + chr(i)
+print(result)
